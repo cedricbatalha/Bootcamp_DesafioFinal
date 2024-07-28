@@ -27,12 +27,12 @@ public class SwaggerConfig {
 
         ApiInfoBuilder apiInfoBuilder = new ApiInfoBuilder();
 
-        apiInfoBuilder.title("Title - Rest API");
+        apiInfoBuilder.title("Desafio Final - Rest API");
         apiInfoBuilder.description("API exemplo de uso de Springboot REST API");
         apiInfoBuilder.version("1.0");
         apiInfoBuilder.termsOfServiceUrl("Termo de uso: Open Source");
-        apiInfoBuilder.license("Licença - Sua Empresa");
-        apiInfoBuilder.licenseUrl("http://www.seusite.com.br");
+        apiInfoBuilder.license("Licença - Dio");
+        apiInfoBuilder.licenseUrl("http://www.dio.com.br");
         apiInfoBuilder.contact(this.contato());
 
         return apiInfoBuilder;
